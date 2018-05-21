@@ -1,0 +1,101 @@
+/**Styles for the Master Touch site
+Created by Renard Heath
+Date 5-21-18 **/
+
+/**site background style **/
+body {
+    background-color: #b4b9c1;
+}
+
+
+/**Nav bar style **/
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+{
+	color: #ffffff;
+}
+	.navbar-inverse	{
+						background-color: #4a78ad;
+						border-color: #4a78ad;
+					}
+
+
+
+
+
+
+
+
+
+}
+main .article {
+    float: left;
+	display: block;
+	padding:0;
+	padding-left: 20px;
+}
+
+
+aside {
+
+
+	padding:5px;
+	height:500px;
+	width:335px;
+	float: right;
+	display:block;
+	background: #66CC33;
+	border: solid thick yellow;
+	border-radius: 1em;
+	box-shadow: black 0.5em 0.5em 0.3em;
+}
+
+
+
+
+aside h1 {
+
+	font-style: italic !important;
+	Color: yellow;
+
+}
+/**Carousel Style override bootstrap **/
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+     display: block;
+     max-width: 100%;
+     height: 360px !important;
+
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #4a78ad;
+   color: white;
+   text-align: center;
+}
+
+/**link style settings**/
+
+/* unvisited link */
+a:link {
+    color: white;
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
